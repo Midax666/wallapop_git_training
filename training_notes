@@ -1,0 +1,18 @@
+ git ls-files --stage
+ git show e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+ git ls-tree
+
+git log -n 2
+git diff --cached
+
+git commit --amend 
+
+git log --graph
+
+git reset --soft HEAD~1 (soft, "mixed",hard)
+
+git reflog --> HISTORIAL DE TODO LO QUE SE HA HECHO, INCLUYENDO RESETS
+
+git checkout -b hotfix (crea y me pasa a la rama)
+
+git rebase -i HEAD~3
